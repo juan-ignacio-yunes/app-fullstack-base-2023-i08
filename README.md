@@ -7,7 +7,7 @@ La aplicación IoT de base que viene con este proyecto se encarga de crear una t
 
 Realizando estas tareas vas a a tener una aplicación fullstack IoT del mundo real que utiliza tecnologías actuales en la que un backend es capaz de interactuar con una DB para cumplir con las peticiones de control que se le mandan desde el cliente web.
 
-En esta imagen podés ver una posible implementación del cliente web que controla los artefactos del hogar.
+En esta imagen podés ver la implementación del cliente web que controla los artefactos del hogar.
 
 ![architecture](doc/webapp-example-1.png)
 
