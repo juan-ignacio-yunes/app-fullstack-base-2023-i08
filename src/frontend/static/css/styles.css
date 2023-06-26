@@ -13,3 +13,20 @@ main {
     font-weight: bold;
     font-size: large;
 }
+
+.div-1 {
+    background-color: white; 
+    color: white; 
+    height: 150px;
+    width: 100%;
+    display: table;
+    table-layout: fixed; /*Optional*/
+    border-spacing: 10px; /*Optional*/
+}
+
+.Column {
+    display: table-cell;
+    background-color: #124580; /*Optional*/
+    margin: 10px;
+    padding: 15px;
+}
