@@ -19,7 +19,7 @@
             <!-- Navigation bar -->
             <nav style="background-color:#124580">
                 <div class="nav-wrapper">
-                    <a href="#!" class="brand-logo left" style="margin-left: 15px;">Smart Home</a>
+                    <a href="#!" class="brand-logo left" style="margin-left: 15px;">Casita inteligente</a>
                     <ul id="nav-mobile" class="right" style="margin-right: 15px;">
                         <li><a href="#">Help</a></li>
                     </ul>
@@ -32,12 +32,10 @@
                     <div class="col s1">2</div>
                     <div class="col s1">3</div>
                     <div class="col s1">4</div>
-
                     <div class="col s1">5</div>
                     <div class="col s1">6</div>
                     <div class="col s1">7</div>
                     <div class="col s1">8</div>
-
                     <div class="col s1">9</div>
                     <div class="col s1">10</div>
                     <div class="col s1">11</div>
@@ -45,55 +43,60 @@
                     
                     
                 </div>
-                <div class="row">
-                    fila 2
-                </div>
-                <br />
 
                 <h3>Smart Home Web Client!</h3>
+                
+                <div class="div-1">
+                    
+                    <div class="Column"> <!-- apertura de cortinas -->
+                        <h5>Cortinas</h5>
+                        <p> Recogido de cortinas </p>
+                        <div class="value left"> 0% </div>
+                        <div class="value right"> 100% </div>
+                        <input type="range" value="80" min="0" max="100" width="5px" oninput="rangevalue.value=value"/>
+                        <div class="value left">
+                            <i class="small material-icons">brightness_3</i>
+                        </div>
+                        <div class="value right">
+                            <i class="small material-icons">brightness_high</i>
+                        </div>
+                    </div>
+                    
+                    <div class="Column"><!-- encendido de luces -->
+                        <div class="input-field col s4">   
+                            <h5>Luces</h5>
+                            <p> Encendido de luces sectorizado</p>
+                            <select multiple id="c">
+                            <option value="1" >Dormitorio</option>
+                            <option value="2">Living</option>
+                            <option value="3">Cocina</option>
+                            </select>
+                            
+                        </div>  
+                    </div>
+                    
+                    <div class="Column"> <!-- Disabled Switch para equipo de música-->
+                        <h5>Música</h5>
+                        <p> Equipo de sonido del living</p>
+                        <div class="switch  col s4"> 
+                            <label style="color: white;">
+                                Off
+                                <input type="checkbox">
+                                <span class="lever"></span>
+                                On
+                            </label>
+                        </div>
+                        <div class="input-field">
+                            <i class="material-icons prefix" color="secondary">volume_up</i>
+                            <input type="range" value="10" min="0" max="100" oninput="rangevalue.value=value"/>
+                        </div>
+                    </div> 
 
-                <div class="row">
-                    <div class="input-field col s12 xl6">
-                        <i class="material-icons prefix " color="secondary">accessibility</i>
-                        <label>Usuario</label>
-                        <input type="text" placeholder="jperez" id="iUser">
-                    </div>
-                    <div class="input-field col s12 xl6">
-                        <i class="material-icons prefix">lock</i>
-                        <label for="iPass">Contraseña</label>
-                        <input type="password" id="iPass">
-                    </div>
                 </div>
-                <input type="text" class="datepicker">
-                <p id="parrafo"></p>
-                <input type="button" class="btn" id="btnLogin" value="Login">
-         
-             
-                <br/>
-                <div class="row">
-                    <div class="input-field col s12 m12 l12 xl12">
-                        <textarea id="textarea_1" class="materialize-textarea" style="height: 150px;" readonly></textarea>
-                    </div>
-                    <p class="range-field">
-                        <input type="range" id="test5" min="0" max="100" />
-                      </p>
-                    <div class="input-field col s12">
-                        <select multiple id="c">
-                          <option value="" disabled selected>Choose your option</option>
-                          <option value="1">Option 1</option>
-                          <option value="2">Option 2</option>
-                          <option value="3">Option 3</option>
-                        </select>
-                        <label>Materialize Multiple Select</label>
-                      </div>
-                </div>
+
                 <div >
-                      <!-- Switch -->
-
-                    <ul class="collection" id="listaDisp">
-                        
-                        
-                      </ul>
+                    <!-- Switch -->
+                    <ul class="collection" id="listaDisp"> </ul>
                 </div>
                 <div class="row">
                     <div class="col s12 m8 l4 xl6">
@@ -110,8 +113,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col l6 s6">
-                        <h5 class="white-text">Smart Home</h5>
-                        <p class="grey-text text-lighten-4">Copyright ### - 2021</p>
+                        <h5 class="white-text">Casita inteligente</h5>
+                        <p class="grey-text text-lighten-4">Copyright * años</p>
                     </div>
                     <div class="col l6 s6">
                         <h5 class="white-text right-align">Contact</h5>
@@ -126,4 +129,4 @@
         </footer>
 
     </body>
-  </html>
+</html>
